@@ -1,0 +1,122 @@
+[
+ {
+   "name": "Vó bigodão",
+   "class": "man",
+   "textClass": "man",
+   "extra": {
+      "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+      "age": "1900 - 2000"
+    },
+   "marriages": [
+     {
+       "spouse": {
+         "name": "Vo mariinha",
+         "class": "woman",
+         "extra": {
+           "nickname": "Illi",
+           "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+           "age": "1900 - 2000"
+         }
+       },
+       "children": [
+         {
+           "name": "Marijesio",
+           "class": "man",
+           "extra": {
+            "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+            "age": "1900 - 2000"
+            },
+           "marriages": [
+             {
+               "spouse": {
+                 "name": "Franci",
+                 "class": "woman",
+                 "extra": {
+                   "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                   "age": "1900 - 2000"
+                 }
+               },
+               "children": [
+                 {
+                   "name": "Emanuel",
+                   "class": "man",
+                   "extra": {
+                     "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                     "age": "1900 - 2000"
+                   },
+                   "marriages": [
+                     {
+                       "spouse": {
+                         "name": "Mulher 1",
+                         "class": "woman",
+                         "extra": {
+                           "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                           "age": "1900 - 2000"
+                         }
+                       },
+                       "children": [
+                         {
+                           "name": "Filho 1",
+                           "class": "man",
+                           "extra": {
+                             "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                             "age": "1900 - 2000"
+                           }
+                         }
+                       ]
+                     },
+                     {
+                       "spouse": {
+                         "name": "Mulher 2",
+                         "class": "ex-wife",
+                         "extra": {
+                           "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                           "age": "1900 - 2000"
+                         }
+                       },
+                       "children": [
+                         {
+                           "name": "Filho 2",
+                           "class": "man",
+                           "extra": {
+                             "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                             "age": "1900 - 2000"
+                           }
+                         }
+                       ]
+                     }
+                   ]
+                 },
+                 {
+                   "name": "Shirley",
+                   "class": "woman",
+                   "extra": {
+                     "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                     "age": "1900 - 2000"
+                   }
+                 },
+                 {
+                   "name": "Sheila",
+                   "class": "woman",
+                   "extra": {
+                     "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                     "age": "1900 - 2000"
+                   }
+                 },
+                 {
+                   "name": "Junior",
+                   "class": "man",
+                   "extra": {
+                     "img": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/142207-phones-feature-what-is-apple-face-id-and-how-does-it-work-image1-5d72kjh6lq.jpg",
+                     "age": "1900 - 2000"
+                   }
+                 }
+               ]
+             }
+           ]
+         }
+       ]
+     }
+   ]
+ }
+]

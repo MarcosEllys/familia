@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://marcosellys.com/familia/sitemap.xml
+Host: https://marcosellys.com

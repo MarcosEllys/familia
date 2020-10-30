@@ -34,7 +34,7 @@ const js = {
 
 // Style loaders
 const styleLoader = {
-  loader: 'style-loader'
+  loader: 'style-loader',
 };
 
 const cssLoader = {
@@ -152,6 +152,19 @@ const videos = {
   ],
 };
 
+const json = {
+  test: /\.(json)$/,
+  use: [
+    {
+      loader: 'json-loader',
+      query: {
+        name: '[name].[hash].[ext]',
+        outputPath: 'json/',
+      },
+    },
+  ],
+};
+
 module.exports = [
   html,
   js,
@@ -161,4 +174,5 @@ module.exports = [
   images,
   fonts,
   videos,
+  json,
 ];

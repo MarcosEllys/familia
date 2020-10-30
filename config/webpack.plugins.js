@@ -13,6 +13,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const RobotstxtPlugin = require('robotstxt-webpack-plugin');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
+const MinifyJSONWebpackPlugin = require('minify-json-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin');
 
 const config = require('./site.config');
 
@@ -77,6 +79,12 @@ const sitemap = new SitemapPlugin(config.site_url, paths, {
   lastmodrealtime: true,
 });
 
+const copyPlugin = new CopyPlugin({
+  patterns: [
+    { from: 'json', to: 'json' },
+  ],
+});
+
 // Favicons
 const favicons = new WebappWebpackPlugin({
   logo: config.favicon,
@@ -138,6 +146,8 @@ module.exports = [
   config.env === 'production' && optimizeCss,
   config.env === 'production' && robots,
   config.env === 'production' && sitemap,
+  config.env === 'production' && copyPlugin,
+  config.env === 'production' && new MinifyJSONWebpackPlugin(),
   config.googleAnalyticsUA && google,
   webpackBar,
   config.env === 'development' && hmr,

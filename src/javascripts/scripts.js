@@ -6,7 +6,11 @@ window.d3 = d3;
 window._ = _;
 window.dTree = dTree;
 
-d3.json('/json/data.json', (_error, treeData) => {
+const ENV = window.location.host.match(/localhost/) ? 'dev' : 'prod';
+
+const DATA_PATH = `${ENV ? '/json/' : '/familia/json'}data.json`;
+
+d3.json(DATA_PATH, (_error, treeData) => {
   dTree.init(treeData, {
     target: '#graph',
     debug: false,
@@ -17,19 +21,20 @@ d3.json('/json/data.json', (_error, treeData) => {
     nodeWidth: 150,
     callbacks: {
       textRenderer: (name, extra) => {
-        if (!extra) {
-          extra = {};
+        let myExtra = {};
+        if (extra) {
+          myExtra = extra;
         }
         return `
         <div class="card">
             <div class="picture">
                 <img
-                    src="${extra.img}"
+                    src="${myExtra.img}"
                     alt="people">
             </div>
             <div class="description">
                 <h3>${name}</h3>
-                <h5>${extra.age}</h5>
+                <h5>${myExtra.age}</h5>
             </div>
         </div>
         `;

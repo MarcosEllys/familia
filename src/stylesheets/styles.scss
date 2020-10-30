@@ -1,68 +1,81 @@
 body {
- font: 10px sans-serif;
+  font: 10px sans-serif;
 }
+
 #graph {
- background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
+
 .linage {
- fill: none;
- stroke: red;
+  fill: none;
+  stroke: red;
 }
+
 .node {
- border: none;
+  border: none;
 }
+
 .card {
- display: flex;
- flex-direction: row;
- border: 1px solid black;
-
- .picture {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-basis: 50%;
+  flex-direction: row;
+  border: 1px solid black;
 
-  img {
-   width: 40px;
-   height: 40px;
-   border-radius: 50%;
-   border: 1px solid black;
+  .picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid black;
+    }
   }
- }
- .desciption {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-  padding: 10px;
- }
+
+  .desciption {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 10px;
+  }
 }
+
 .marriage {
- fill: none;
- stroke: #a2a2a2;
+  fill: none;
+  stroke: #a2a2a2;
 }
+
 .marriageNode {
-border-radius: 50%;
+  border-radius: 50%;
 }
+
 .man {
-background-color: #FFFFFF;
-border-top: 10px solid #2bb2d2;
+  background-color: #fff;
+  border-top: 10px solid #2bb2d2;
 }
+
 .woman {
-background-color: #FFFFFF;
-border-top: 10px solid #d52a8a;
+  background-color: #fff;
+  border-top: 10px solid #d52a8a;
 }
+
 .ex-wife {
-background-color: #FFFFFF;
-border-top: 10px solid #d52a8a;
+  background-color: #fff;
+  border-top: 10px solid #d52a8a;
 }
-.emphasis{
-font-style: italic;
+
+.emphasis {
+  font-style: italic;
 }
+
 p {
-padding:0;
-margin:0;
+  padding: 0;
+  margin: 0;
 }
+
 svg {
-border-style: solid;
-border-width: 1px;
+  border-style: solid;
+  border-width: 1px;
 }
